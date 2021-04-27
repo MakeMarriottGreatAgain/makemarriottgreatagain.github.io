@@ -1,0 +1,89 @@
+green {
+    color: rgb(35, 197, 0)
+}
+
+blue {
+    color: #2980b9
+}
+
+red {
+    color: #c0392b
+}
+
+tir {
+    color: #16a085
+}
+
+ora {
+    color: #d35400
+}
+
+tira {
+    color: #03A678
+}
+
+pira {
+    color: #F9690E
+}
+
+a.pira:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #F9690E
+}
+
+a.tira:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #03A678
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    width: 100%;
+    text-align: center
+}
+
+.centeredtwo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 97%);
+    font-size: 5vw;
+    width: 100%;
+    text-align: center
+}
+
+.mainpara {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 520%);
+    font-size: 5vw;
+    width: 100%;
+    text-align: center
+}
+
+.Row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px
+}
+
+div.hidden {
+    display: none;
+    display: inline-block
+}
+
+div.hiddentwo {
+    display: none;
+    display: inline-block
+}
+
+div.hiddenthree {
+    display: none;
+    display: inline-block
+}
